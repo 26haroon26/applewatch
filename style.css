@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    background-color: #333333;
+    /* margin-top: -19px; */
+    /* margin-bottom: -18px; */
+    color: white;
+}
+nav>ul{
+font-family: Arial, Helvetica, sans-serif ;
+;
+font-size: large;
+line-height: 3;
+    list-style-type:none; 
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+svg{
+    margin: 14px 25px 0px 5px ;
+}
+.first{
+/* border: 1px solid red; */
+    background-color: rgb(245, 245, 247);
+}
+.head{
+    text-align: center;
+    margin: 10px 30px 10px 30px;
+}.head>div>h1{
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 50px;
+}.head>div>p{
+    font-family:Arial, Helvetica, sans-serif ;
+font-size: 20px;
+font-weight:600 ;
+}
+button>a{
+    text-decoration:none ;
+    color: white;
+
+}
+button{
+    font-size: large;
+    padding: 5px 10px;
+    background-color: rgb(0, 119, 237);
+    border: 1px solid rgb(0, 119, 237);
+    border-radius: 15px;
+}.head{
+background-color: rgb(245, 245, 247);
+    display: flex;
+    flex-flow: column;
+
+}.second{margin-top: -55px;
+    padding: 55px;
+    background-color: rgb(245, 245, 247);
+}
+.second>div{
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);;
+
+    
+}
+.second>div>div{
+   
+    margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}.second>div>div>div>p{
+    font-size: 6em;
+    color: rgb(95, 109, 125);
+    line-height: 90px;
+    margin-top: -10px;
+    letter-spacing:.01em;
+    font-family:  sans-serif ;
+
+}.second>div>div>div>h6{
+    color: rgb(95, 109, 125);
+    font-size: large;
+
+
+}.second>div>div>div button{
+    background-color: black;
+}
+.third{
+    background-color: rgb(245, 245, 247);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}.third1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    text-align: center;
+    margin: 150px auto;
+    background-color: rgb(245, 245, 247);
+}.third1>p{
+    padding-top: 10px;
+}.third1>p>a{
+    padding-left: 15px;
+}
